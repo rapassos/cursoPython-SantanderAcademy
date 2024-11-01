@@ -1,5 +1,5 @@
-#ESTRUTURA DE DADOS
-print('ESTRUTURA DE DADOS\n')
+#ESTRUTURA DE DADOS - LISTAS
+print('ESTRUTURA DE DADOS - LISTAS\n')
 
 #Listas - são estruturas de dados organizadas, mutáveis e que permitem armazenar uma coleção de elementos
 print('Listas - são estruturas de dados organizadas, mutáveis e que permitem armazenar uma coleção de elementos\n')
