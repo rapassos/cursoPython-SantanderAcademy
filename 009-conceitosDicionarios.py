@@ -33,4 +33,4 @@ print('pessoa.items() =',pessoa.items())
 
 print('.update() - retorna todos os valores de um dicionário')
 pessoa.update({"profissão":"Analista de TI"})
-print('pessoa.update({"profissão":"Analista de TI"})',pessoa)
+print('pessoa.update({"profissão":"Analista de TI"}) resulta em:',pessoa)
