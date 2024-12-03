@@ -74,6 +74,9 @@ def area_retangulo(base, altura):
 
 print('def area_retangulo(base, altura):\n\t"""\n\tCalcula a área de um retângulo.\n\n\tArgs:\n\t\tbase (float): A base do retângulo.\n\t\taltura (float): A altura do retângulo.\n\n\tReturns:\n\t\tfloat: A área do retângulo.\n\t"""\n\treturn base * altura\n')
 
+print('area_retangulo(17,3) resulta em',area_retangulo(17,3))
+
+
 #Funções com número variável de argumentos
 print('Funções com número variável de argumentos\n')
 
