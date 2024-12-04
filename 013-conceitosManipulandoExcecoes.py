@@ -34,10 +34,9 @@ print('try:\n\t# Código que pode gerar uma exceção\n\tarquivo = open("arquivo
 print('O resultado do código acima é:')
 try:
     # Código que pode gerar uma exceção
-    arquivo = open("arquivo.txt", "r")
+    arquivo = open("arquivo.txt", 'r')
     # Realizar operações com o arquivo
 except FileNotFoundError:
     print("Erro: Arquivo não encontrado")
 finally:
-    print('')
-    #arquivo.close()  # Fechar o arquivo sempre, mesmo se ocorrer uma exceção
+    arquivo.close()  # Fechar o arquivo sempre, mesmo se ocorrer uma exceção
